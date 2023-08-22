@@ -5,7 +5,11 @@ from cvzone.HandTrackingModule import HandDetector
 import mouse
 import numpy as np
 
+<<<<<<< HEAD
 #Capturing window
+=======
+#Captuing live feed from webcam
+>>>>>>> master
 cap = cv2.VideoCapture(0)
 cam_w, cam_h = 640,480
 cap.set(3,cam_w)
